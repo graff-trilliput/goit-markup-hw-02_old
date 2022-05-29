@@ -7,7 +7,6 @@
     --background-color: #fff;
     --secondary-background-color: #EEEEEE;
     --third-bg-color: #F5F4FA;
-    --footer-address-second-color: rgba(255, 255, 255, 0.6);
 }
 
 .list{
@@ -97,8 +96,6 @@ a:focus{
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color);
-
-
 }
 .site-nav .link-current{
     color: var(--brand-color);
