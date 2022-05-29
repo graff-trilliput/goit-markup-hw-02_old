@@ -16,6 +16,7 @@
 .link{
     text-decoration: none;
     font-style: normal;
+    color: var(--text-color);
 }
 
 body{
@@ -34,7 +35,6 @@ a:focus{
 }
 
 .main-title{
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -65,7 +65,6 @@ a:focus{
 
 .description{
     color: var(--secondary-text-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -81,10 +80,24 @@ a:focus{
     letter-spacing: 0.03em;
 }
 
+/* -- ADVANTAGES -- */
+.title-advantages{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
 /* -- HEADER -- */
-.site-nav .link:hover,
-.site-nav .link:focus{
-    color: var(--brand-color);
+.site-nav{    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+
+
 }
 .site-nav .link-current{
     color: var(--brand-color);
@@ -116,16 +129,15 @@ a:focus{
 }
 
 .subtitle{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
 
-.portfolio-item{
+/* .portfolio-item{
     background-color: var(--secondary-background-color);
-}
+} */
 
 /* -- LOGO -- */
 .logo{
@@ -135,6 +147,7 @@ a:focus{
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
+    color: var(--text-color);
 }
 
 .logo-word{
@@ -143,4 +156,8 @@ a:focus{
 
 .get-in-touch{
     color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
